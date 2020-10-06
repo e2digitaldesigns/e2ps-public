@@ -1,0 +1,26 @@
+@import "./../_base_spectre/spectre.scss";
+
+$templateWrapperDeclaration: "#css-template-react.application-wrapper";
+
+@import "./fonts";
+
+#css-template-react.application-wrapper {
+  height: 100vh;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+$accent-color: #468ecb;
+$border-color1: #e0e0e0;
+$border-color2: #e1e1e1;
+
+$mainContentWidth: 63.75rem;
+$mainContentWidth: 100rem;
+
+$mediaBreakPointSmall: 768px;
+$mediaBreakPointMedium: 1024px;
+
+@import "./ui/ui";
+@import "./template/template";

@@ -1,0 +1,169 @@
+{
+  "_id": "5ef8d618262b0914f87f0a38",
+  "globalProduct": false,
+  "isActive": true,
+  "displayOrder": 0,
+  "isAdmin": false,
+  "isPrint": true,
+  "isDesign": true,
+  "isAutoDesc": false,
+  "attributes": [
+    {
+      "_id": "e7f14v9454kbzczpal_attr",
+      "system": true,
+      "systemType": "stock",
+      "isActive": true,
+      "order": 1,
+      "name": "Stock",
+      "type": "0",
+      "options": [
+        {
+          "_id": "e7f14v9454kbzczpam_attrOption",
+          "option": "12pt CS2 Card Stock",
+          "order": 1,
+          "days": "0",
+          "gsm": "242",
+          "setUpPrice": "12",
+          "minPrice": "34",
+          "price": "0"
+        },
+        {
+          "_id": "e7f14v9454kbzczpan_attrOption",
+          "option": "14pt CS2 Card Stock",
+          "order": "2",
+          "days": "0",
+          "gsm": "270",
+          "setUpPrice": "12",
+          "minPrice": "34",
+          "price": "5"
+        },
+        {
+          "_id": "e7f14v9454kbzczpao_attrOption",
+          "option": "16pt CS2 Card Stock",
+          "order": "3",
+          "days": "0",
+          "gsm": "308",
+          "setUpPrice": "12",
+          "minPrice": "34",
+          "price": "8"
+        }
+      ]
+    },
+    {
+      "_id": "e7f14v9454kbzczpap_attr",
+      "system": true,
+      "systemType": "turnTime",
+      "isActive": true,
+      "order": 2,
+      "name": "Turnaround Time",
+      "type": "4",
+      "options": [
+        {
+          "_id": "e7f14v9454kbzczpaq_attrOption",
+          "option": "3-4 Business Days",
+          "order": 1,
+          "days": "4",
+          "gsm": "",
+          "setUpPrice": "12",
+          "minPrice": "34",
+          "price": "0"
+        },
+        {
+          "_id": "e7f14v9454kbzczpar_attrOption",
+          "option": "2-3 Business Days",
+          "order": "2",
+          "days": "3",
+          "gsm": "",
+          "setUpPrice": "12",
+          "minPrice": "34",
+          "price": "30"
+        },
+        {
+          "_id": "e7f14v9454kbzczpas_attrOption",
+          "option": "1 (Next) Business Day",
+          "order": "3",
+          "days": "1",
+          "gsm": "",
+          "setUpPrice": "12",
+          "minPrice": "34",
+          "price": "45"
+        }
+      ]
+    }
+  ],
+  "productSizes": [
+    {
+      "_id": "kbzd065s_size",
+      "isActive": true,
+      "size": "4x6",
+      "dpi": 300,
+      "margin": 0.125,
+      "order": 0,
+      "designPrice1": "75",
+      "designPrice2": "125",
+      "quantities": [
+        {
+          "_id": "kbzd0ghc_quantity",
+          "isActive": true,
+          "quantity": 500,
+          "sides": "2",
+          "price1": "30",
+          "price2": "35"
+        },
+        {
+          "_id": "kbzd0jbb_quantity",
+          "isActive": true,
+          "quantity": 1000,
+          "sides": "2",
+          "price1": "40",
+          "price2": "45"
+        }
+      ]
+    },
+    {
+      "_id": "kc0v82sj_size",
+      "isActive": true,
+      "size": "5x7",
+      "dpi": 300,
+      "margin": 0.125,
+      "order": 0,
+      "designPrice1": "80",
+      "designPrice2": "95",
+      "quantities": [
+        {
+          "_id": "kc0v8gou_quantity",
+          "isActive": true,
+          "quantity": 500,
+          "sides": "2",
+          "price1": "50",
+          "price2": "55"
+        },
+        {
+          "_id": "kc0v8hty_quantity",
+          "isActive": true,
+          "quantity": 1000,
+          "sides": "2",
+          "price1": "60",
+          "price2": "65"
+        },
+        {
+          "_id": "kc0v8lo4_quantity",
+          "isActive": true,
+          "quantity": 2500,
+          "sides": "2",
+          "price1": "70",
+          "price2": "75"
+        }
+      ]
+    }
+  ],
+  "printDesc": " ",
+  "designDesc": " ",
+  "storeOwnerId": "5e7e3c29c925261cecd5c1ba",
+  "storeFrontId": "5e7e3e15c925261cecd5c1bc",
+  "name": "Postcards",
+  "url": "postcards",
+  "displayName": "Postcards",
+  "date": { "$date": "2020-06-28T17:40:40.566Z" },
+  "__v": 0
+}

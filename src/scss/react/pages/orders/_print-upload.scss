@@ -1,0 +1,49 @@
+#{$templateWrapperDeclaration} .print-upload-wrapper {
+  display: grid;
+  // grid-template-columns: auto minmax(18.75rem, 1fr);
+  grid-template-columns: 1fr minmax(15rem, 1fr);
+  grid-column-gap: 2.5rem;
+
+  > .print-upload-content {
+  }
+
+  > .print-upload-form-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.25rem;
+    .upload-thumb-holder {
+      position: relative;
+      @include thumbnail;
+      // width: 100%;
+      > .upload-thumb-remove-button {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+
+        > span.material-icons {
+          font-size: 2rem;
+          color: white;
+          background-color: red;
+          border-radius: 50%;
+        }
+      }
+      > .upload-thumb {
+        max-width: 100%;
+      }
+    }
+
+    .dropzone-pad {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      height: 5rem;
+      // background-color: $border-color1;
+    }
+  }
+}
+
+@media only screen and (max-width: $mediaBreakPointSmall) {
+  #{$templateWrapperDeclaration} .print-upload-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,50 @@
+// @import "./top-header";
+// @import "./main-header";
+// @import "./primary-menu";
+// @import "./../main-content/main-content";
+
+// @import "./../main-content/orders/orders";
+// @import "./../main-content/account/invoice";
+// @import "./../main-content/account/shopping-cart";
+// @import "./primary-footer";
+// @import "./secondary-footer";
+
+#{$templateWrapperDeclaration} {
+  // max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  min-height: 100vh;
+  // grid-gap: 0.25rem;
+  grid-template: auto auto auto 1fr auto / 1fr;
+
+  > .storefront-template-header {
+    grid-column: 1 / 4;
+  }
+
+  > .storefront-template-main-header {
+    grid-column: 1 / 4;
+  }
+
+  > .storefront-template-primary-menu {
+    grid-column: 1 / 4;
+  }
+
+  > .storefront-template-main-content {
+    grid-column: 1 / 2;
+  }
+
+  > .storefront-template-footer {
+    grid-column: 1 / 4;
+  }
+}
+
+//TEMPLATE
+@import "./mixins/mixins";
+@import "./top-header";
+@import "./main-header";
+@import "./primary-menu";
+@import "./main-content-wrapper";
+@import "./main-content-secondary-menu";
+@import "./main-content-page-content";
+@import "./primary-footer";
+@import "./secondary-footer";

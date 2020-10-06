@@ -1,0 +1,23 @@
+#{$templateWrapperDeclaration} .storefront-secondary-menu {
+  // display: none;
+  padding: 0 0.375rem 0 0.75rem;
+  > ul {
+    list-style: none;
+    margin-bottom: 1rem;
+    > li {
+      padding: 0.75rem 0.625rem 0.625rem 0;
+      font-size: 0.875rem;
+      border-bottom: 0.0625rem dotted #e1e1e1;
+      text-indent: 0.3125rem;
+      &.storefront-secondary-menu-header {
+        @include defaultPageHeader;
+      }
+      a {
+        color: #69686c;
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
+  }
+}

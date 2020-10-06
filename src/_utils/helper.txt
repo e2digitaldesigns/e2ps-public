@@ -1,0 +1,8 @@
+https://javascript.info/import-export
+
+
+<!-- pattern validation example for Email -->
+<input class="form-input" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,14}$">
+
+<!-- pattern validation example for password (8 or more characters that are of at least one number, and one uppercase and lowercase letter) -->
+<input class="form-input" type="password" placeholder="Password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$">

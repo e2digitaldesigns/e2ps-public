@@ -1,0 +1,7 @@
+@mixin defaultPageHeader {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: $accent-color;
+  text-transform: uppercase;
+  border-bottom: 0.0625rem solid #e1e1e1;
+}

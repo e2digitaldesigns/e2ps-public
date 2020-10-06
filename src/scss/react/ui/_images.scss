@@ -1,0 +1,8 @@
+@mixin thumbnail {
+  display: block;
+  padding: 0.25rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 0.0625rem solid $border-color2;
+}

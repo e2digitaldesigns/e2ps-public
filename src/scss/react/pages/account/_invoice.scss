@@ -1,0 +1,87 @@
+#{$templateWrapperDeclaration} .storefront-invoice-grid {
+  display: grid;
+
+  border-top: 0.0625rem solid #ccc;
+  border-right: 0.0625rem solid #ccc;
+
+  &.storefront-invoice-grid-information,
+  &.storefront-invoice-grid-header,
+  &.storefront-invoice-grid-item,
+  &.storefront-invoice-grid-totals {
+    grid-template-columns: 3fr 8fr 7rem;
+    > div {
+      border-left: 0.0625rem solid #ccc;
+      padding: 0.625rem;
+    }
+  }
+
+  &.storefront-invoice-grid-information {
+    grid-template-columns: 1fr 1fr;
+    > div.information-right {
+      text-align: right;
+      border: none;
+    }
+  }
+
+  &.storefront-invoice-grid-header {
+    color: #000;
+    font-weight: bold;
+    background-color: #eee;
+  }
+
+  &.storefront-invoice-grid-totals {
+    grid-template-columns: auto 7rem;
+    text-align: right;
+    div {
+      border-bottom: 0.0625rem solid #ccc;
+    }
+  }
+
+  .totals {
+    text-align: right;
+  }
+
+  .invoice-label {
+    font-weight: bold;
+  }
+}
+
+// #{$templateWrapperDeclaration} .storefront-invoice-grid {
+
+#{$templateWrapperDeclaration} {
+  .invoice-images-holder {
+    width: 100%;
+    margin-bottom: 0.25rem;
+    background-color: #efefef;
+    text-align: center;
+    .invoice-images {
+      width: 100%;
+      border: 0.0625rem solid $accent-color;
+      &.image-hide {
+        display: none;
+      }
+    }
+  }
+}
+
+#{$templateWrapperDeclaration} .invoice-img-btn-txt {
+  &.nm {
+    display: block;
+  }
+
+  &.sm {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $mediaBreakPointSmall) {
+  #{$templateWrapperDeclaration} .invoice-img-btn-txt {
+    &.nm {
+      display: none;
+    }
+
+    &.sm {
+      display: block;
+    }
+  }
+}

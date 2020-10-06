@@ -1,0 +1,38 @@
+$accent-color: #468ecb;
+$border-color1: #e0e0e0;
+$border-color2: #e1e1e1;
+
+$colorDefault: #ffffff;
+$colorPrimary: #0062cc;
+$colorSecondary: #545b62;
+$colorSuccess: #1e7e34;
+$colorDanger: #bd2130;
+$colorWarning: #d39e00;
+$colorInfo: #117a8b;
+
+$colorPrimaryLight: #0062cc;
+$colorSecondaryLight: #eee;
+$colorSuccessLight: #1e7e34;
+$colorDangerLight: #bd2130;
+$colorWarningLight: #d39e00;
+$colorInfoLight: #117a8b;
+
+$colorMap: (
+  "default": $colorDefault,
+  "primary": $colorPrimary,
+  "secondary": $colorSecondary,
+  "success": $colorSuccess,
+  "danger": $colorDanger,
+  "warning": $colorWarning,
+  "info": $colorInfo,
+);
+
+$colorMapLight: (
+  "default-light": $colorDefault,
+  "primary-light": $colorPrimary,
+  "secondary-light": $colorSecondaryLight,
+  "success-light": $colorSuccess,
+  "danger-light": $colorDanger,
+  "warning-light": $colorWarning,
+  "info-light": $colorInfo,
+);

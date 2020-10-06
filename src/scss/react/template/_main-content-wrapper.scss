@@ -1,0 +1,31 @@
+#{$templateWrapperDeclaration} .storefront-main-content-body-wrapper {
+  // display: none;
+  max-width: $mainContentWidth;
+  margin: 0 auto;
+
+  .storefront-main-content-wrapper {
+    display: grid;
+    grid-template-columns: 13rem 1fr;
+    .storefront-secondary-menu {
+      background-color: transparent;
+    }
+    .storefront-page-content {
+      background-color: transparent;
+    }
+  }
+}
+
+@media only screen and (max-width: $mediaBreakPointSmall) {
+  #{$templateWrapperDeclaration} .storefront-main-content-body-wrapper {
+    .storefront-main-content-wrapper {
+      grid-template-columns: 1fr;
+      max-width: 100%;
+      .storefront-secondary-menu {
+        display: none;
+      }
+      .storefront-page-content {
+        background-color: transparent;
+      }
+    }
+  }
+}

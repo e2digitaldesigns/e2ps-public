@@ -1,0 +1,25 @@
+#{$templateWrapperDeclaration} .print-order-form-pricing-div {
+  text-align: right;
+  margin-bottom: 0.5rem;
+  .price {
+    color: $accent-color;
+    font-size: 2rem;
+  }
+}
+
+#{$templateWrapperDeclaration} .print-order-form-shipping-method-div {
+  max-height: 5rem;
+  overflow-y: auto;
+  > ul {
+    list-style: none;
+    > li {
+      padding: 0.125rem;
+    }
+  }
+}
+
+@media only screen and (max-width: $mediaBreakPointSmall) {
+  #{$templateWrapperDeclaration} .print-order-form-pricing-div {
+    text-align: left;
+  }
+}

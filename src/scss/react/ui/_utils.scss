@@ -1,0 +1,114 @@
+$sizes: 0, 0.25rem, 0.5rem, 0.75rem, 1rem, 1.25rem;
+$icons: (
+  "eye": "\f112",
+  "start": "\f12e",
+  "stop": "\f12f",
+);
+
+@for $i from 1 through length($sizes) {
+  $data: nth($sizes, $i);
+
+  //margin
+  .m-#{$i} {
+    margin: $data !important;
+  }
+
+  .mx-#{$i} {
+    margin-right: $data !important;
+    margin-left: $data !important;
+  }
+
+  .my-#{$i} {
+    margin-top: $data !important;
+    margin-bottom: $data !important;
+  }
+
+  .mt-#{$i} {
+    margin-top: $data !important;
+  }
+
+  .mr-#{$i} {
+    margin-right: $data !important;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $data !important;
+  }
+
+  .ml-#{$i} {
+    margin-left: $data !important;
+  }
+
+  //padding
+  .p-#{$i} {
+    padding: $data !important;
+  }
+
+  .px-#{$i} {
+    padding-right: $data !important;
+    padding-left: $data !important;
+  }
+
+  .py-#{$i} {
+    padding-top: $data !important;
+    padding-bottom: $data !important;
+  }
+
+  .pt-#{$i} {
+    padding-top: $data !important;
+  }
+
+  .pr-#{$i} {
+    padding-right: $data !important;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: $data !important;
+  }
+
+  .pl-#{$i} {
+    padding-left: $data !important;
+  }
+}
+
+@media only screen and (min-width: $mediaBreakPointMedium) {
+  .display-sm-only {
+    display: none;
+  }
+
+  .display-md-only {
+    display: none;
+  }
+
+  .hidden-lg {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $mediaBreakPointMedium) {
+  .display-sm-only {
+    display: none;
+  }
+
+  .hidden-md {
+    display: none;
+  }
+
+  .display-lg-only {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $mediaBreakPointSmall) {
+  .hidden-sm {
+    display: none;
+  }
+
+  .display-md-only {
+    display: none;
+  }
+
+  .display-lg-only {
+    display: none;
+  }
+}

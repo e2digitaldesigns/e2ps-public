@@ -1,0 +1,30 @@
+#{$templateWrapperDeclaration} .storefront-main-content-body-wrapper {
+  max-width: $mainContentWidth;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+
+  .storefront-main-content-header {
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-indent: 0.3125rem;
+    text-transform: uppercase;
+    color: $accent-color;
+    border-bottom: 0.0625rem solid #e1e1e1;
+    padding: 0.75rem 0.625rem 0.625rem 0;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: $mediaBreakPointSmall) {
+  #{$templateWrapperDeclaration} .storefront-main-content-body-wrapper {
+    .storefront-main-content-wrapper {
+      grid-template-columns: auto;
+      max-width: 100%;
+      .storefront-secondary-menu {
+        display: none;
+      }
+      .storefront-main-content {
+      }
+    }
+  }
+}

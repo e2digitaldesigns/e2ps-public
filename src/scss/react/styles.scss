@@ -1,0 +1,42 @@
+@import "./color-map";
+
+@import "./../_base_spectre/spectre.scss";
+
+$templateWrapperDeclaration: "#css-template-react.application-wrapper";
+
+@import "./fonts";
+@import "./../reset";
+@import "./material-io-icons-reset";
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fff;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+$mainContentWidth: 63.75rem;
+
+$mediaBreakPointSmall: 768px;
+$mediaBreakPointMedium: 1024px;
+
+@import "./ui/ui";
+
+//TEMPLATE
+@import "./template/template";
+
+//PAGES
+@import "./pages/home/home";
+@import "./pages/orders/orders";
+@import "./pages/orders/print-page";
+@import "./pages/orders/print-upload";
+@import "./pages/orders/design-upload";
+
+@import "./pages/account/shopping-cart";
+@import "./pages/account/processing/processing";
+@import "./pages/account/invoice";
+
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";

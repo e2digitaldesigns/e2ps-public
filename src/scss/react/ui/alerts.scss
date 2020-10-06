@@ -1,0 +1,17 @@
+$alertMap: "danger" #a94442 #f2dede #ebccd1, "info" #31708f #d9edf7 #bce8f1,
+  "success" #3c763d #dff0d8 #d6e9c6, "warning" #8a6d3b #fcf8e3 #d6e9c6;
+
+//alerts
+.alert {
+  padding: 1rem;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.25rem;
+}
+
+@each $name, $color, $bgColor, $borderColor in $alertMap {
+  .alert-#{$name} {
+    color: $color;
+    background-color: $bgColor;
+    border-color: $borderColor;
+  }
+}
