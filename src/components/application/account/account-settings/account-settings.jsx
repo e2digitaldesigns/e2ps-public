@@ -183,7 +183,7 @@ export default () => {
 
         <div className="form-group">
           <div className="col-2 col-sm-12">
-            <label className="form-label form-label-text-align">xxx</label>
+            <label className="form-label form-label-text-align"></label>
           </div>
           <div className="col-4 col-sm-12">
             <button type="submit" className="btn btn-primary btn-block">

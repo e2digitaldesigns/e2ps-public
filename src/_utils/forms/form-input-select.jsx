@@ -11,7 +11,7 @@ export default ({
   options = [],
   placeholder,
   theOptions = null,
-  labelSize = ["", "col-4 col-sm-12"],
+  labelSize = ["col-2 col-sm-12", "col-4 col-sm-12"],
   required = false
 }) => {
   const handleOptionParser = () => {
